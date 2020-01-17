@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/maguero/want2play-gateway.svg?branch=master)](https://travis-ci.org/maguero/want2play-gateway)
 # Want2Play Gateway
 
-This is a gateway service, a Spring Boot application based on [Spring Cloud Gateway](https://spring.io/guides/gs/gateway/). 
+This is a gateway service, a Spring Boot application based on [Spring Cloud Netflix](https://cloud.spring.io/spring-cloud-netflix/reference/html/#router-and-filter-zuul). 
 
 # Build & Run
 
@@ -13,7 +13,6 @@ This service is dockerized and is built and run from [want2play-orchestration](h
 ```
 
 ## API endpoints
-* Eureka dashboard: [http://localhost:8080/](http://localhost:8080/)
 * Health check: [http://localhost:8080/actuator/health](http://localhost:8080/actuator/health)
 
 ## Settings
